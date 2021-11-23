@@ -1,25 +1,27 @@
 project = QgsProject.instance()
 
-context = QgsExpressionContext()
-context.appendScopes(QgsExpressionContextUtils.globalProjectLayerScopes(v))
 
 v_telep = project.mapLayersByName('JNK-settlements')[0]
 features_telep = v_telep.getFeatures()
 
+context = QgsExpressionContext()
+context.appendScopes(QgsExpressionContextUtils.globalProjectLayerScopes(v_telep))
+
 v_telep.startEditing()
-v_telep.addAttribute(QgsField('KUTAK_SZAMA', QVariant.Int, 'int', 2))
+v_telep.addAttribute(QgsField('KUT_SZAM', QVariant.Int, 'int', 2))
+#pr = v_telep.dataProvider()
+#pr.addAttributes([QgsField('KUT_SZAM', QVariant.Int)])
 v_telep.updateFields()
 v_telep.commitChanges()
 iface.vectorLayerTools().stopEditing(v_telep)
 
 
-v_fuel = project.mapLayersByName('fuel_JNK')[0]
+v_fuel = project.mapLayersByName('fuel')[0]
 features_fuel = v_fuel.getFeatures()
-
 
  
 with edit(v_telep):
-    for t in features_telep:
+    for t in v_telep.getFeatures():
         counter = 0
         context.setFeature(t)
         t_geom = t.geometry()
@@ -27,5 +29,6 @@ with edit(v_telep):
             f_geom = f.geometry()
             if t_geom.contains(f_geom):
                 counter += 1
-        t['KUTAK_SZAMA']=counter
-        v_telep.updateFeature(feature)
+        t['KUT_SZAM']=counter
+        v_telep.updateFeature(t)
+        

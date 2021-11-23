@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveDateTime="2021-11-23T21:02:48" version="3.18.3-Zürich" saveUserFull="Attila Sedon" saveUser="attilasedon" projectname="">
+<qgis saveDateTime="2021-11-23T21:48:58" version="3.18.3-Zürich" saveUserFull="Attila Sedon" saveUser="attilasedon" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -20,22 +20,22 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="../../parking_JNK_geom.gpkg|layername=parking_JNK_geom" name="parking_JNK_geom" id="parking_JNK_geom_833a4601_d563_489d_ac27_16be309144e6" providerKey="ogr">
+    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./bus_stop_JNK.gpkg|layername=bus_stop_JNK" name="bus_stop_JNK" id="bus_stop_JNK_54fbb4fe_0a94_4dc0_842c_b4b4f543a877" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="../../parking_JNK.gpkg|layername=parking_JNK" name="parking_JNK" id="parking_JNK_50b9d188_d482_4b60_a4d4_7d43aa57888a" providerKey="ogr">
+    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./bus_stop_JNK_geom.gpkg|layername=bus_stop_JNK_geom" name="bus_stop_JNK_geom" id="bus_stop_JNK_geom_496e0505_e6a4_4d4f_a107_ff2e9651f232" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="../../fuel_JNK.gpkg|layername=fuel_JNK" name="fuel_JNK" id="fuel_JNK_ebcdd00e_2cdd_444b_9651_6ba9a2ca98d1" providerKey="ogr">
+    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./parking_JNK_geom.gpkg|layername=parking_JNK_geom" name="parking_JNK_geom" id="parking_JNK_geom_ad9d0f9a_61f1_4edc_b13b_f8182ab43625" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="../../fuel_JNK_geom.gpkg|layername=fuel_JNK_geom" name="fuel_JNK_geom" id="fuel_JNK_geom_808c929e_f4ab_46a4_8cce_ef2cf8ba3283" providerKey="ogr">
+    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./fuel_JNK_geom.gpkg|layername=fuel_JNK_geom" name="fuel_JNK_geom" id="fuel_JNK_geom_53202216_f61f_4cca_a8a9_63c6f7ae7aa6" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="../../bus_stop_JNK_geom.gpkg|layername=bus_stop_JNK_geom" name="bus_stop_JNK_geom" id="bus_stop_JNK_geom_9c5f01ed_1a2c_4e23_b6bf_8ed920b99d59" providerKey="ogr">
+    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./parking_JNK.gpkg|layername=parking_JNK" name="parking_JNK" id="parking_JNK_665e649f_f5d2_4d42_9aa0_ff3aeaa10df9" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="../../bus_stop_JNK.gpkg|layername=bus_stop_JNK" name="bus_stop_JNK" id="bus_stop_JNK_8c0fe651_fde1_401a_b987_f58c4cc92310" providerKey="ogr">
+    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./fuel_JNK.gpkg|layername=fuel_JNK" name="fuel_JNK" id="fuel_JNK_151f15ca_1c6c_4a30_bb1c_57a0ca293a3f" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Unchecked" legend_exp="" source="./JNK-járások.shp" name="JNK-járások" id="JNK_járások_e00b4c2e_07c3_4b97_9e46_a6c05cae432d" providerKey="ogr">
@@ -71,12 +71,6 @@
     <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./adatok.xlsx|layername=TA2020_W" name="adatok" id="adatok_TA2020_W_2eac8490_765b_49b5_b21e_08ba7be31589" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./bus_stop_poligon.shp" name="bus_stop_poligon" id="bus_stop_poligon_a77b2ed2_8e8c_4edd_95ea_ed39c5521050" providerKey="ogr">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer patch_size="-1,-1" expanded="1" legend_split_behavior="0" checked="Qt::Checked" legend_exp="" source="./bus_stop.shp" name="bus_stop" id="bus_stop_e0a4a285_8103_416a_a1c7_51d657b86b4d" providerKey="ogr">
-      <customproperties/>
-    </layer-tree-layer>
     <custom-order enabled="0">
       <item>JNK_bedfc0b5_1113_4e47_a5df_1ebbeb30ea3e</item>
       <item>JNK_járások_e00b4c2e_07c3_4b97_9e46_a6c05cae432d</item>
@@ -87,35 +81,31 @@
       <item>JNK_települések2_233da0fb_0934_4edb_a283_937f58cbc127</item>
       <item>összes_baleset_településenként_d8d7141b_fec4_4bb4_b785_089ef9181e2f</item>
       <item>JNK_járások_289817f1_6f13_4a91_95ed_aaa0e75d6a0c</item>
-      <item>bus_stop_poligon_a77b2ed2_8e8c_4edd_95ea_ed39c5521050</item>
-      <item>bus_stop_e0a4a285_8103_416a_a1c7_51d657b86b4d</item>
-      <item>bus_stop_JNK_8c0fe651_fde1_401a_b987_f58c4cc92310</item>
-      <item>bus_stop_JNK_geom_9c5f01ed_1a2c_4e23_b6bf_8ed920b99d59</item>
-      <item>fuel_JNK_ebcdd00e_2cdd_444b_9651_6ba9a2ca98d1</item>
-      <item>fuel_JNK_geom_808c929e_f4ab_46a4_8cce_ef2cf8ba3283</item>
-      <item>parking_JNK_geom_833a4601_d563_489d_ac27_16be309144e6</item>
-      <item>parking_JNK_50b9d188_d482_4b60_a4d4_7d43aa57888a</item>
+      <item>bus_stop_JNK_54fbb4fe_0a94_4dc0_842c_b4b4f543a877</item>
+      <item>bus_stop_JNK_geom_496e0505_e6a4_4d4f_a107_ff2e9651f232</item>
+      <item>fuel_JNK_151f15ca_1c6c_4a30_bb1c_57a0ca293a3f</item>
+      <item>fuel_JNK_geom_53202216_f61f_4cca_a8a9_63c6f7ae7aa6</item>
+      <item>parking_JNK_665e649f_f5d2_4d42_9aa0_ff3aeaa10df9</item>
+      <item>parking_JNK_geom_ad9d0f9a_61f1_4edc_b13b_f8182ab43625</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" enabled="0" intersection-snapping="0" self-snapping="0" tolerance="12" scaleDependencyMode="0" maxScale="0" mode="2" type="1" minScale="0">
     <individual-layer-settings>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="bus_stop_e0a4a285_8103_416a_a1c7_51d657b86b4d"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="fuel_JNK_geom_808c929e_f4ab_46a4_8cce_ef2cf8ba3283"/>
       <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_járások_e00b4c2e_07c3_4b97_9e46_a6c05cae432d"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_települések2_773c0446_f4be_411d_897d_6bac2b69bc96"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="parking_JNK_50b9d188_d482_4b60_a4d4_7d43aa57888a"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_települések2_233da0fb_0934_4edb_a283_937f58cbc127"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="bus_stop_JNK_54fbb4fe_0a94_4dc0_842c_b4b4f543a877"/>
       <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_bedfc0b5_1113_4e47_a5df_1ebbeb30ea3e"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_települések2_773c0446_f4be_411d_897d_6bac2b69bc96"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_járások_289817f1_6f13_4a91_95ed_aaa0e75d6a0c"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="összes_baleset_településenként_d8d7141b_fec4_4bb4_b785_089ef9181e2f"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_települések2_ae5f1e25_70ba_4b49_bc32_770fb3515e34"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="bus_stop_JNK_geom_496e0505_e6a4_4d4f_a107_ff2e9651f232"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="parking_JNK_665e649f_f5d2_4d42_9aa0_ff3aeaa10df9"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="parking_JNK_geom_ad9d0f9a_61f1_4edc_b13b_f8182ab43625"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="fuel_JNK_geom_53202216_f61f_4cca_a8a9_63c6f7ae7aa6"/>
       <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="összes_baleset_nagy_956ea68a_8ce7_4ecb_a10e_91f5eee6c5a2"/>
       <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="admin8_e5121b0f_3117_4efe_bd83_d3112a31519c"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="bus_stop_JNK_geom_9c5f01ed_1a2c_4e23_b6bf_8ed920b99d59"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_települések2_ae5f1e25_70ba_4b49_bc32_770fb3515e34"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_járások_289817f1_6f13_4a91_95ed_aaa0e75d6a0c"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="JNK_települések2_233da0fb_0934_4edb_a283_937f58cbc127"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="parking_JNK_geom_833a4601_d563_489d_ac27_16be309144e6"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="bus_stop_JNK_8c0fe651_fde1_401a_b987_f58c4cc92310"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="bus_stop_poligon_a77b2ed2_8e8c_4edd_95ea_ed39c5521050"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="fuel_JNK_ebcdd00e_2cdd_444b_9651_6ba9a2ca98d1"/>
-      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="összes_baleset_településenként_d8d7141b_fec4_4bb4_b785_089ef9181e2f"/>
+      <layer-setting enabled="0" units="1" tolerance="12" maxScale="0" type="1" minScale="0" id="fuel_JNK_151f15ca_1c6c_4a30_bb1c_57a0ca293a3f"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -123,10 +113,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2215677.97040307149291039</xmin>
-      <ymin>5911145.40653941500931978</ymin>
-      <xmax>2331453.23420919012278318</xmax>
-      <ymax>6049242.83121007960289717</ymax>
+      <xmin>2141273.59290425386279821</xmin>
+      <ymin>5917006.54770212527364492</ymin>
+      <xmax>2302477.54140425380319357</xmax>
+      <ymax>6076702.80120212864130735</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -147,34 +137,34 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="parking_JNK_geom" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bus_stop_JNK" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="parking_JNK_geom_833a4601_d563_489d_ac27_16be309144e6"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="parking_JNK" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="parking_JNK_50b9d188_d482_4b60_a4d4_7d43aa57888a"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fuel_JNK" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="fuel_JNK_ebcdd00e_2cdd_444b_9651_6ba9a2ca98d1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fuel_JNK_geom" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="fuel_JNK_geom_808c929e_f4ab_46a4_8cce_ef2cf8ba3283"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="bus_stop_JNK_54fbb4fe_0a94_4dc0_842c_b4b4f543a877"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bus_stop_JNK_geom" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="bus_stop_JNK_geom_9c5f01ed_1a2c_4e23_b6bf_8ed920b99d59"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="bus_stop_JNK_geom_496e0505_e6a4_4d4f_a107_ff2e9651f232"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bus_stop_JNK" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="parking_JNK_geom" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="bus_stop_JNK_8c0fe651_fde1_401a_b987_f58c4cc92310"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="parking_JNK_geom_ad9d0f9a_61f1_4edc_b13b_f8182ab43625"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fuel_JNK_geom" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="fuel_JNK_geom_53202216_f61f_4cca_a8a9_63c6f7ae7aa6"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="parking_JNK" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="parking_JNK_665e649f_f5d2_4d42_9aa0_ff3aeaa10df9"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="fuel_JNK" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="fuel_JNK_151f15ca_1c6c_4a30_bb1c_57a0ca293a3f"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="JNK-járások" showFeatureCount="0">
@@ -230,16 +220,6 @@
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="adatok" showFeatureCount="0">
       <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" visible="1" layerid="adatok_TA2020_W_2eac8490_765b_49b5_b21e_08ba7be31589"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bus_stop_poligon" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="bus_stop_poligon_a77b2ed2_8e8c_4edd_95ea_ed39c5521050"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bus_stop" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" visible="1" layerid="bus_stop_e0a4a285_8103_416a_a1c7_51d657b86b4d"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -8381,7 +8361,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property value="&quot;NAME&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions">
+          <value>"NAME"</value>
+        </property>
         <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -8549,7 +8531,7 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;KUT_SZAM&quot;">
         <columns>
           <column hidden="0" width="-1" type="field" name="NAME"/>
           <column hidden="0" width="-1" type="field" name="ADMIN_LEVE"/>
@@ -8557,6 +8539,7 @@ def my_form_open(dialog, layer, feature):
           <column hidden="0" width="-1" type="field" name="Kerékpár"/>
           <column hidden="0" width="-1" type="field" name="összes2019"/>
           <column hidden="0" width="-1" type="field" name="összes2018"/>
+          <column hidden="0" width="-1" type="field" name="KUT_SZAM"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -10241,8 +10224,8 @@ def my_form_open(dialog, layer, feature):
         <xmax>2328897.31142729986459017</xmax>
         <ymax>6035019.17781923990696669</ymax>
       </extent>
-      <id>bus_stop_JNK_8c0fe651_fde1_401a_b987_f58c4cc92310</id>
-      <datasource>../../bus_stop_JNK.gpkg|layername=bus_stop_JNK</datasource>
+      <id>bus_stop_JNK_54fbb4fe_0a94_4dc0_842c_b4b4f543a877</id>
+      <datasource>./bus_stop_JNK.gpkg|layername=bus_stop_JNK</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10280,7 +10263,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -10319,7 +10302,7 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
-                <Option value="125,139,143,255" type="QString" name="color"/>
+                <Option value="229,182,54,255" type="QString" name="color"/>
                 <Option value="1" type="QString" name="horizontal_anchor_point"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="circle" type="QString" name="name"/>
@@ -10338,7 +10321,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="1" type="QString" name="vertical_anchor_point"/>
               </Option>
               <prop k="angle" v="0"/>
-              <prop k="color" v="125,139,143,255"/>
+              <prop k="color" v="229,182,54,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -10555,8 +10538,8 @@ def my_form_open(dialog, layer, feature):
         <xmax>2328934.77043594978749752</xmax>
         <ymax>6045085.63663391023874283</ymax>
       </extent>
-      <id>bus_stop_JNK_geom_9c5f01ed_1a2c_4e23_b6bf_8ed920b99d59</id>
-      <datasource>../../bus_stop_JNK_geom.gpkg|layername=bus_stop_JNK_geom</datasource>
+      <id>bus_stop_JNK_geom_496e0505_e6a4_4d4f_a107_ff2e9651f232</id>
+      <datasource>./bus_stop_JNK_geom.gpkg|layername=bus_stop_JNK_geom</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10594,7 +10577,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -10633,7 +10616,7 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleFill" locked="0" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="133,182,111,255" type="QString" name="color"/>
+                <Option value="190,207,80,255" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
@@ -10645,7 +10628,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="solid" type="QString" name="style"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="133,182,111,255"/>
+              <prop k="color" v="190,207,80,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -10883,638 +10866,13 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" autoRefreshTime="0" wkbType="Point" simplifyMaxScale="1" type="vector" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" geometry="Point" simplifyDrawingHints="1" maxScale="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="0" minScale="100000000" readOnly="0">
       <extent>
-        <xmin>19.71791229999999828</xmin>
-        <ymin>46.84266000000000219</ymin>
-        <xmax>20.92084050000000062</xmax>
-        <ymax>47.56639489999999881</ymax>
-      </extent>
-      <id>bus_stop_e0a4a285_8103_416a_a1c7_51d657b86b4d</id>
-      <datasource>./bus_stop.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>bus_stop</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="ISO-8859-2">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="alapértelmezett">
-        <map-layer-style name="alapértelmezett"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal fixedDuration="0" endExpression="" enabled="0" durationField="" accumulate="0" durationUnit="min" startExpression="" mode="0" endField="" startField="">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
-        <symbols>
-          <symbol force_rhr="0" alpha="1" type="marker" name="0" clip_to_extent="1">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option value="" type="QString" name="name"/>
-                <Option name="properties"/>
-                <Option value="collection" type="QString" name="type"/>
-              </Option>
-            </data_defined_properties>
-            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
-              <Option type="Map">
-                <Option value="0" type="QString" name="angle"/>
-                <Option value="190,178,151,255" type="QString" name="color"/>
-                <Option value="1" type="QString" name="horizontal_anchor_point"/>
-                <Option value="bevel" type="QString" name="joinstyle"/>
-                <Option value="circle" type="QString" name="name"/>
-                <Option value="0,0" type="QString" name="offset"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
-                <Option value="MM" type="QString" name="offset_unit"/>
-                <Option value="35,35,35,255" type="QString" name="outline_color"/>
-                <Option value="solid" type="QString" name="outline_style"/>
-                <Option value="0" type="QString" name="outline_width"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
-                <Option value="MM" type="QString" name="outline_width_unit"/>
-                <Option value="diameter" type="QString" name="scale_method"/>
-                <Option value="2" type="QString" name="size"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
-                <Option value="MM" type="QString" name="size_unit"/>
-                <Option value="1" type="QString" name="vertical_anchor_point"/>
-              </Option>
-              <prop k="angle" v="0"/>
-              <prop k="color" v="190,178,151,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <legend type="default-vector"/>
-      <referencedLayers/>
-      <fieldConfiguration>
-        <field name="full_id" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="osm_id" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="osm_type" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="amenity" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="operator" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="internet_a" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="highway" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="url" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="public_tra" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="bus" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias index="0" name="" field="full_id"/>
-        <alias index="1" name="" field="osm_id"/>
-        <alias index="2" name="" field="osm_type"/>
-        <alias index="3" name="" field="amenity"/>
-        <alias index="4" name="" field="operator"/>
-        <alias index="5" name="" field="internet_a"/>
-        <alias index="6" name="" field="highway"/>
-        <alias index="7" name="" field="url"/>
-        <alias index="8" name="" field="name"/>
-        <alias index="9" name="" field="public_tra"/>
-        <alias index="10" name="" field="bus"/>
-      </aliases>
-      <defaults>
-        <default applyOnUpdate="0" expression="" field="full_id"/>
-        <default applyOnUpdate="0" expression="" field="osm_id"/>
-        <default applyOnUpdate="0" expression="" field="osm_type"/>
-        <default applyOnUpdate="0" expression="" field="amenity"/>
-        <default applyOnUpdate="0" expression="" field="operator"/>
-        <default applyOnUpdate="0" expression="" field="internet_a"/>
-        <default applyOnUpdate="0" expression="" field="highway"/>
-        <default applyOnUpdate="0" expression="" field="url"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
-        <default applyOnUpdate="0" expression="" field="public_tra"/>
-        <default applyOnUpdate="0" expression="" field="bus"/>
-      </defaults>
-      <constraints>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="full_id"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="osm_id"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="osm_type"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="amenity"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="operator"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="internet_a"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="highway"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="url"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="name"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="public_tra"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="bus"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="full_id" desc=""/>
-        <constraint exp="" field="osm_id" desc=""/>
-        <constraint exp="" field="osm_type" desc=""/>
-        <constraint exp="" field="amenity" desc=""/>
-        <constraint exp="" field="operator" desc=""/>
-        <constraint exp="" field="internet_a" desc=""/>
-        <constraint exp="" field="highway" desc=""/>
-        <constraint exp="" field="url" desc=""/>
-        <constraint exp="" field="name" desc=""/>
-        <constraint exp="" field="public_tra" desc=""/>
-        <constraint exp="" field="bus" desc=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <dataDefinedFieldProperties/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" autoRefreshTime="0" wkbType="MultiPolygon" simplifyMaxScale="1" type="vector" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" geometry="Polygon" simplifyDrawingHints="1" maxScale="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="0" minScale="100000000" readOnly="0">
-      <extent>
-        <xmin>19.73754260000000116</xmin>
-        <ymin>46.90140170000000097</ymin>
-        <xmax>20.92117700000000013</xmax>
-        <ymax>47.62737469999999718</ymax>
-      </extent>
-      <id>bus_stop_poligon_a77b2ed2_8e8c_4edd_95ea_ed39c5521050</id>
-      <datasource>./bus_stop_poligon.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>bus_stop_poligon</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="ISO-8859-2">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="alapértelmezett">
-        <map-layer-style name="alapértelmezett"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-        <Private>0</Private>
-      </flags>
-      <temporal fixedDuration="0" endExpression="" enabled="0" durationField="" accumulate="0" durationUnit="min" startExpression="" mode="0" endField="" startField="">
-        <fixedRange>
-          <start></start>
-          <end></end>
-        </fixedRange>
-      </temporal>
-      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
-        <symbols>
-          <symbol force_rhr="0" alpha="1" type="fill" name="0" clip_to_extent="1">
-            <data_defined_properties>
-              <Option type="Map">
-                <Option value="" type="QString" name="name"/>
-                <Option name="properties"/>
-                <Option value="collection" type="QString" name="type"/>
-              </Option>
-            </data_defined_properties>
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <Option type="Map">
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="145,82,45,255" type="QString" name="color"/>
-                <Option value="bevel" type="QString" name="joinstyle"/>
-                <Option value="0,0" type="QString" name="offset"/>
-                <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
-                <Option value="MM" type="QString" name="offset_unit"/>
-                <Option value="35,35,35,255" type="QString" name="outline_color"/>
-                <Option value="solid" type="QString" name="outline_style"/>
-                <Option value="0.26" type="QString" name="outline_width"/>
-                <Option value="MM" type="QString" name="outline_width_unit"/>
-                <Option value="solid" type="QString" name="style"/>
-              </Option>
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="145,82,45,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <legend type="default-vector"/>
-      <referencedLayers/>
-      <fieldConfiguration>
-        <field name="full_id" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="osm_id" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="osm_type" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="amenity" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="addr_house" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="operator" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="addr_stree" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="addr_postc" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="addr_city" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="building" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="wheelchair" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="public_tra" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="bus" configurationFlags="None">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias index="0" name="" field="full_id"/>
-        <alias index="1" name="" field="osm_id"/>
-        <alias index="2" name="" field="osm_type"/>
-        <alias index="3" name="" field="amenity"/>
-        <alias index="4" name="" field="addr_house"/>
-        <alias index="5" name="" field="operator"/>
-        <alias index="6" name="" field="addr_stree"/>
-        <alias index="7" name="" field="addr_postc"/>
-        <alias index="8" name="" field="addr_city"/>
-        <alias index="9" name="" field="building"/>
-        <alias index="10" name="" field="wheelchair"/>
-        <alias index="11" name="" field="public_tra"/>
-        <alias index="12" name="" field="name"/>
-        <alias index="13" name="" field="bus"/>
-      </aliases>
-      <defaults>
-        <default applyOnUpdate="0" expression="" field="full_id"/>
-        <default applyOnUpdate="0" expression="" field="osm_id"/>
-        <default applyOnUpdate="0" expression="" field="osm_type"/>
-        <default applyOnUpdate="0" expression="" field="amenity"/>
-        <default applyOnUpdate="0" expression="" field="addr_house"/>
-        <default applyOnUpdate="0" expression="" field="operator"/>
-        <default applyOnUpdate="0" expression="" field="addr_stree"/>
-        <default applyOnUpdate="0" expression="" field="addr_postc"/>
-        <default applyOnUpdate="0" expression="" field="addr_city"/>
-        <default applyOnUpdate="0" expression="" field="building"/>
-        <default applyOnUpdate="0" expression="" field="wheelchair"/>
-        <default applyOnUpdate="0" expression="" field="public_tra"/>
-        <default applyOnUpdate="0" expression="" field="name"/>
-        <default applyOnUpdate="0" expression="" field="bus"/>
-      </defaults>
-      <constraints>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="full_id"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="osm_id"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="osm_type"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="amenity"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="addr_house"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="operator"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="addr_stree"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="addr_postc"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="addr_city"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="building"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="wheelchair"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="public_tra"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="name"/>
-        <constraint notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0" field="bus"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="full_id" desc=""/>
-        <constraint exp="" field="osm_id" desc=""/>
-        <constraint exp="" field="osm_type" desc=""/>
-        <constraint exp="" field="amenity" desc=""/>
-        <constraint exp="" field="addr_house" desc=""/>
-        <constraint exp="" field="operator" desc=""/>
-        <constraint exp="" field="addr_stree" desc=""/>
-        <constraint exp="" field="addr_postc" desc=""/>
-        <constraint exp="" field="addr_city" desc=""/>
-        <constraint exp="" field="building" desc=""/>
-        <constraint exp="" field="wheelchair" desc=""/>
-        <constraint exp="" field="public_tra" desc=""/>
-        <constraint exp="" field="name" desc=""/>
-        <constraint exp="" field="bus" desc=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <dataDefinedFieldProperties/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" autoRefreshTime="0" wkbType="Point" simplifyMaxScale="1" type="vector" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" geometry="Point" simplifyDrawingHints="1" maxScale="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" labelsEnabled="0" minScale="100000000" readOnly="0">
-      <extent>
         <xmin>2197058.79983380017802119</xmin>
         <ymin>5910641.0126848304644227</ymin>
         <xmax>2330409.30841099005192518</xmax>
         <ymax>6037061.58830610010772943</ymax>
       </extent>
-      <id>fuel_JNK_ebcdd00e_2cdd_444b_9651_6ba9a2ca98d1</id>
-      <datasource>../../fuel_JNK.gpkg|layername=fuel_JNK</datasource>
+      <id>fuel_JNK_151f15ca_1c6c_4a30_bb1c_57a0ca293a3f</id>
+      <datasource>./fuel_JNK.gpkg|layername=fuel_JNK</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -11552,7 +10910,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -11591,7 +10949,7 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
-                <Option value="164,113,88,255" type="QString" name="color"/>
+                <Option value="231,113,72,255" type="QString" name="color"/>
                 <Option value="1" type="QString" name="horizontal_anchor_point"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="circle" type="QString" name="name"/>
@@ -11610,7 +10968,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="1" type="QString" name="vertical_anchor_point"/>
               </Option>
               <prop k="angle" v="0"/>
-              <prop k="color" v="164,113,88,255"/>
+              <prop k="color" v="231,113,72,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -12421,8 +11779,8 @@ def my_form_open(dialog, layer, feature):
         <xmax>20.91903819999999925</xmax>
         <ymax>47.63263649999999672</ymax>
       </extent>
-      <id>fuel_JNK_geom_808c929e_f4ab_46a4_8cce_ef2cf8ba3283</id>
-      <datasource>../../fuel_JNK_geom.gpkg|layername=fuel_JNK_geom</datasource>
+      <id>fuel_JNK_geom_53202216_f61f_4cca_a8a9_63c6f7ae7aa6</id>
+      <datasource>./fuel_JNK_geom.gpkg|layername=fuel_JNK_geom</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -12460,7 +11818,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -12499,7 +11857,7 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleFill" locked="0" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="213,180,60,255" type="QString" name="color"/>
+                <Option value="255,158,23,255" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
@@ -12511,7 +11869,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="solid" type="QString" name="style"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="213,180,60,255"/>
+              <prop k="color" v="255,158,23,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -13326,8 +12684,8 @@ def my_form_open(dialog, layer, feature):
         <xmax>2320366.45356984017416835</xmax>
         <ymax>6005401.28172290977090597</ymax>
       </extent>
-      <id>parking_JNK_50b9d188_d482_4b60_a4d4_7d43aa57888a</id>
-      <datasource>../../parking_JNK.gpkg|layername=parking_JNK</datasource>
+      <id>parking_JNK_665e649f_f5d2_4d42_9aa0_ff3aeaa10df9</id>
+      <datasource>./parking_JNK.gpkg|layername=parking_JNK</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -13365,7 +12723,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13404,7 +12762,7 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="0" type="QString" name="angle"/>
-                <Option value="232,113,141,255" type="QString" name="color"/>
+                <Option value="141,90,153,255" type="QString" name="color"/>
                 <Option value="1" type="QString" name="horizontal_anchor_point"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="circle" type="QString" name="name"/>
@@ -13423,7 +12781,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="1" type="QString" name="vertical_anchor_point"/>
               </Option>
               <prop k="angle" v="0"/>
-              <prop k="color" v="232,113,141,255"/>
+              <prop k="color" v="141,90,153,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -13629,8 +12987,8 @@ def my_form_open(dialog, layer, feature):
         <xmax>2260072.43324367981404066</xmax>
         <ymax>6038258.98433769959956408</ymax>
       </extent>
-      <id>parking_JNK_geom_833a4601_d563_489d_ac27_16be309144e6</id>
-      <datasource>../../parking_JNK_geom.gpkg|layername=parking_JNK_geom</datasource>
+      <id>parking_JNK_geom_ad9d0f9a_61f1_4edc_b13b_f8182ab43625</id>
+      <datasource>./parking_JNK_geom.gpkg|layername=parking_JNK_geom</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -13668,7 +13026,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13707,7 +13065,7 @@ def my_form_open(dialog, layer, feature):
             <layer class="SimpleFill" locked="0" enabled="1" pass="0">
               <Option type="Map">
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="border_width_map_unit_scale"/>
-                <Option value="141,90,153,255" type="QString" name="color"/>
+                <Option value="114,155,111,255" type="QString" name="color"/>
                 <Option value="bevel" type="QString" name="joinstyle"/>
                 <Option value="0,0" type="QString" name="offset"/>
                 <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
@@ -13719,7 +13077,7 @@ def my_form_open(dialog, layer, feature):
                 <Option value="solid" type="QString" name="style"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="141,90,153,255"/>
+              <prop k="color" v="114,155,111,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -16568,14 +15926,12 @@ def my_form_open(dialog, layer, feature):
     <layer id="JNK_települések2_233da0fb_0934_4edb_a283_937f58cbc127"/>
     <layer id="összes_baleset_településenként_d8d7141b_fec4_4bb4_b785_089ef9181e2f"/>
     <layer id="JNK_járások_289817f1_6f13_4a91_95ed_aaa0e75d6a0c"/>
-    <layer id="bus_stop_poligon_a77b2ed2_8e8c_4edd_95ea_ed39c5521050"/>
-    <layer id="bus_stop_e0a4a285_8103_416a_a1c7_51d657b86b4d"/>
-    <layer id="bus_stop_JNK_8c0fe651_fde1_401a_b987_f58c4cc92310"/>
-    <layer id="bus_stop_JNK_geom_9c5f01ed_1a2c_4e23_b6bf_8ed920b99d59"/>
-    <layer id="fuel_JNK_ebcdd00e_2cdd_444b_9651_6ba9a2ca98d1"/>
-    <layer id="fuel_JNK_geom_808c929e_f4ab_46a4_8cce_ef2cf8ba3283"/>
-    <layer id="parking_JNK_geom_833a4601_d563_489d_ac27_16be309144e6"/>
-    <layer id="parking_JNK_50b9d188_d482_4b60_a4d4_7d43aa57888a"/>
+    <layer id="bus_stop_JNK_54fbb4fe_0a94_4dc0_842c_b4b4f543a877"/>
+    <layer id="bus_stop_JNK_geom_496e0505_e6a4_4d4f_a107_ff2e9651f232"/>
+    <layer id="fuel_JNK_151f15ca_1c6c_4a30_bb1c_57a0ca293a3f"/>
+    <layer id="fuel_JNK_geom_53202216_f61f_4cca_a8a9_63c6f7ae7aa6"/>
+    <layer id="parking_JNK_665e649f_f5d2_4d42_9aa0_ff3aeaa10df9"/>
+    <layer id="parking_JNK_geom_ad9d0f9a_61f1_4edc_b13b_f8182ab43625"/>
   </layerorder>
   <properties>
     <DefaultStyles>
@@ -17823,7 +17179,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="5911145.40653941500931978" ymax="6049242.83121007960289717" xmax="2417686.42528689885511994" xmin="2129444.77932536276057363">
+    <DefaultViewExtent ymin="5917006.54770212527364492" ymax="6076702.80120212864130735" xmax="2388537.29554095957428217" xmin="2055213.83876754809170961">
       <spatialrefsys>
         <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
         <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>

@@ -16,7 +16,7 @@ v_telep.commitChanges()
 iface.vectorLayerTools().stopEditing(v_telep)
 
 
-v_fuel = project.mapLayersByName('fuel')[0]
+v_fuel = project.mapLayersByName('fuel_JNK')[0]
 features_fuel = v_fuel.getFeatures()
 
  
